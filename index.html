@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Kids Learning World 🌈</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HOME: CATEGORIES ============ -->
+  <div id="home-screen" class="screen">
+    <header class="home-header">
+      <h1>🌈 Kids Learning World</h1>
+      <p>Pick something fun to learn!</p>
+    </header>
+    <div id="categories-grid" class="categories-grid">
+      <!-- category cards injected by JS -->
+    </div>
+  </div>
+
+  <!-- ============ FEED: TIKTOK-STYLE SWIPER ============ -->
+  <div id="feed-screen" class="screen hidden">
+    <div class="feed-topbar">
+      <button id="back-btn" class="round-btn" title="Back">⬅️</button>
+      <span id="feed-title" class="feed-title"></span>
+      <button id="sound-btn" class="round-btn" title="Sound on/off">🔊</button>
+    </div>
+    <div id="feed" class="feed">
+      <!-- item cards injected by JS -->
+    </div>
+    <div class="swipe-hint" id="swipe-hint">⬆️ Swipe up!</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
