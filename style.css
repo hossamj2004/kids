@@ -9,7 +9,7 @@
 html, body {
   height: 100%;
   overflow: hidden;
-  font-family: "Baloo 2", "Comic Sans MS", cursive, sans-serif;
+  font-family: "Tajawal", "Baloo 2", "Comic Sans MS", cursive, sans-serif;
   user-select: none;
 }
 
@@ -300,6 +300,13 @@ html, body {
   background: rgba(0, 0, 0, 0.2);
   padding: 4px 34px;
   border-radius: 999px;
+  direction: rtl;
+  font-family: "Tajawal", "Baloo 2", sans-serif;
+}
+
+.cat-name {
+  font-family: "Tajawal", "Baloo 2", sans-serif;
+  direction: rtl;
 }
 
 .item-counter {

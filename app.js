@@ -133,19 +133,20 @@ const CATEGORIES = [
     name: "Fruits",
     emoji: "🍓",
     color: "linear-gradient(145deg, #f093fb, #f5576c)",
+    cover: "images/categories/fruits.png",
     items: [
-      { emoji: "🍎", name: "Apple" },
-      { emoji: "🍌", name: "Banana" },
-      { emoji: "🍇", name: "Grapes" },
-      { emoji: "🍓", name: "Strawberry" },
-      { emoji: "🍊", name: "Orange" },
-      { emoji: "🍉", name: "Watermelon" },
-      { emoji: "🍍", name: "Pineapple" },
-      { emoji: "🥭", name: "Mango" },
-      { emoji: "🍑", name: "Peach" },
-      { emoji: "🍒", name: "Cherries" },
-      { emoji: "🥝", name: "Kiwi" },
-      { emoji: "🍋", name: "Lemon" },
+      { name: "Apple",      image: "images/fruits/apple.png",      emoji: "🍎" },
+      { name: "Banana",     image: "images/fruits/banana.png",     emoji: "🍌" },
+      { name: "Grapes",     image: "images/fruits/grapes.png",     emoji: "🍇" },
+      { name: "Strawberry", image: "images/fruits/strawberry.png", emoji: "🍓" },
+      { name: "Orange",     image: "images/fruits/orange.png",     emoji: "🍊" },
+      { name: "Watermelon", image: "images/fruits/watermelon.png", emoji: "🍉" },
+      { name: "Pineapple",  image: "images/fruits/pineapple.png",  emoji: "🍍" },
+      { name: "Mango",      image: "images/fruits/mango.png",      emoji: "🥭" },
+      { name: "Peach",      image: "images/fruits/peach.png",      emoji: "🍑" },
+      { name: "Cherries",   image: "images/fruits/cherries.png",   emoji: "🍒" },
+      { name: "Kiwi",       image: "images/fruits/kiwi.png",       emoji: "🥝" },
+      { name: "Lemon",      image: "images/fruits/lemon.png",      emoji: "🍋" },
     ],
   },
   {
@@ -153,19 +154,20 @@ const CATEGORIES = [
     name: "Vehicles",
     emoji: "🚗",
     color: "linear-gradient(145deg, #43e97b, #38f9d7)",
+    cover: "images/categories/vehicles.png",
     items: [
-      { emoji: "🚗", name: "Car" },
-      { emoji: "🚌", name: "Bus" },
-      { emoji: "🚓", name: "Police Car" },
-      { emoji: "🚑", name: "Ambulance" },
-      { emoji: "🚒", name: "Fire Truck" },
-      { emoji: "🚂", name: "Train" },
-      { emoji: "✈️", name: "Airplane" },
-      { emoji: "🚁", name: "Helicopter" },
-      { emoji: "🚢", name: "Ship" },
-      { emoji: "🚲", name: "Bicycle" },
-      { emoji: "🏍️", name: "Motorcycle" },
-      { emoji: "🚀", name: "Rocket" },
+      { name: "Car",         image: "images/vehicles/car.png",         emoji: "🚗" },
+      { name: "Bus",         image: "images/vehicles/bus.png",         emoji: "🚌" },
+      { name: "Police Car",  image: "images/vehicles/police-car.png",  emoji: "🚓" },
+      { name: "Ambulance",   image: "images/vehicles/ambulance.png",   emoji: "🚑" },
+      { name: "Fire Truck",  image: "images/vehicles/fire-truck.png",  emoji: "🚒" },
+      { name: "Train",       image: "images/vehicles/train.png",       emoji: "🚂" },
+      { name: "Airplane",    image: "images/vehicles/airplane.png",    emoji: "✈️" },
+      { name: "Helicopter",  image: "images/vehicles/helicopter.png",  emoji: "🚁" },
+      { name: "Ship",        image: "images/vehicles/ship.png",        emoji: "🚢" },
+      { name: "Bicycle",     image: "images/vehicles/bicycle.png",     emoji: "🚲" },
+      { name: "Motorcycle",  image: "images/vehicles/motorcycle.png",  emoji: "🏍️" },
+      { name: "Rocket",      image: "images/vehicles/rocket.png",      emoji: "🚀" },
     ],
   },
   {
@@ -173,15 +175,16 @@ const CATEGORIES = [
     name: "Shapes",
     emoji: "🔷",
     color: "linear-gradient(145deg, #fa709a, #fee140)",
+    cover: "images/categories/shapes.png",
     items: [
-      { emoji: "🔴", name: "Circle" },
-      { emoji: "🟥", name: "Square" },
-      { emoji: "🔺", name: "Triangle" },
-      { emoji: "⭐", name: "Star" },
-      { emoji: "❤️", name: "Heart" },
-      { emoji: "🔷", name: "Diamond" },
-      { emoji: "🌙", name: "Crescent" },
-      { emoji: "🥚", name: "Oval" },
+      { name: "Circle",   image: "images/shapes/circle.png",   emoji: "🔴" },
+      { name: "Square",   image: "images/shapes/square.png",   emoji: "🟥" },
+      { name: "Triangle", image: "images/shapes/triangle.png", emoji: "🔺" },
+      { name: "Star",     image: "images/shapes/star.png",     emoji: "⭐" },
+      { name: "Heart",    image: "images/shapes/heart.png",    emoji: "❤️" },
+      { name: "Diamond",  image: "images/shapes/diamond.png",  emoji: "🔷" },
+      { name: "Crescent", image: "images/shapes/crescent.png", emoji: "🌙" },
+      { name: "Oval",     image: "images/shapes/oval.png",     emoji: "🥚" },
     ],
   },
   {
@@ -189,16 +192,55 @@ const CATEGORIES = [
     name: "Weather",
     emoji: "🌤️",
     color: "linear-gradient(145deg, #30cfd0, #a58fff)",
+    cover: "images/categories/weather.png",
     items: [
-      { emoji: "☀️", name: "Sun" },
-      { emoji: "🌧️", name: "Rain" },
-      { emoji: "⛅", name: "Cloudy" },
-      { emoji: "❄️", name: "Snow" },
-      { emoji: "⛈️", name: "Storm" },
-      { emoji: "🌈", name: "Rainbow" },
-      { emoji: "🌙", name: "Moon" },
-      { emoji: "⭐", name: "Star" },
-      { emoji: "🌪️", name: "Tornado" },
+      { name: "Sun",     image: "images/weather/sun.png",     emoji: "☀️" },
+      { name: "Rain",    image: "images/weather/rain.png",    emoji: "🌧️" },
+      { name: "Cloudy",  image: "images/weather/cloudy.png",  emoji: "⛅" },
+      { name: "Snow",    image: "images/weather/snow.png",    emoji: "❄️" },
+      { name: "Storm",   image: "images/weather/storm.png",   emoji: "⛈️" },
+      { name: "Rainbow", image: "images/weather/rainbow.png", emoji: "🌈" },
+      { name: "Moon",    image: "images/weather/moon.png",    emoji: "🌙" },
+      { name: "Star",    image: "images/weather/star.png",    emoji: "⭐" },
+      { name: "Tornado", image: "images/weather/tornado.png", emoji: "🌪️" },
+    ],
+  },
+  {
+    id: "body",
+    name: "Body Parts",
+    emoji: "👤",
+    color: "linear-gradient(145deg, #ffecd2, #fcb69f)",
+    cover: "images/categories/body.png",
+    items: [
+      { name: "Head",   image: "images/body/head.png",   emoji: "👤" },
+      { name: "Hand",   image: "images/body/hand.png",   emoji: "✋" },
+      { name: "Foot",   image: "images/body/foot.png",   emoji: "🦶" },
+      { name: "Eye",    image: "images/body/eye.png",    emoji: "👁️" },
+      { name: "Ear",    image: "images/body/ear.png",    emoji: "👂" },
+      { name: "Nose",   image: "images/body/nose.png",   emoji: "👃" },
+      { name: "Mouth",  image: "images/body/mouth.png",  emoji: "👄" },
+      { name: "Arm",    image: "images/body/arm.png",    emoji: "💪" },
+      { name: "Leg",    image: "images/body/leg.png",    emoji: "🦵" },
+      { name: "Finger", image: "images/body/finger.png", emoji: "☝️" },
+    ],
+  },
+  {
+    id: "clothes",
+    name: "Clothes",
+    emoji: "👕",
+    color: "linear-gradient(145deg, #a18cd1, #fbc2eb)",
+    cover: "images/categories/clothes.png",
+    items: [
+      { name: "Shirt",   image: "images/clothes/shirt.png",   emoji: "👕" },
+      { name: "Pants",   image: "images/clothes/pants.png",   emoji: "👖" },
+      { name: "Hat",     image: "images/clothes/hat.png",     emoji: "🧢" },
+      { name: "Shoes",   image: "images/clothes/shoes.png",   emoji: "👟" },
+      { name: "Socks",   image: "images/clothes/socks.png",   emoji: "🧦" },
+      { name: "Dress",   image: "images/clothes/dress.png",   emoji: "👗" },
+      { name: "Jacket",  image: "images/clothes/jacket.png",  emoji: "🧥" },
+      { name: "Scarf",   image: "images/clothes/scarf.png",   emoji: "🧣" },
+      { name: "Gloves",  image: "images/clothes/gloves.png",  emoji: "🧤" },
+      { name: "Skirt",   image: "images/clothes/skirt.png",   emoji: "👗" },
     ],
   },
 ];
@@ -233,9 +275,9 @@ function speak(text) {
   if (!soundOn || !("speechSynthesis" in window)) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = "en-US";
+  u.lang = "ar-SA";
   u.rate = 0.85;
-  u.pitch = 1.2;
+  u.pitch = 1.1;
   speechSynthesis.speak(u);
 }
 
@@ -248,15 +290,16 @@ function buildEmojiFallback(item) {
     .join("");
 }
 
-function buildItemCardContent(item, index, total) {
+function buildItemCardContent(item, catId, index, total) {
+  const label = itemNameAr(catId, item);
   const bigHtml = item.big ? `<div class="item-big">${item.big}</div>` : "";
   const counterHtml = `<div class="item-counter">${index + 1} / ${total}</div>`;
-  const tapHtml = `<div class="tap-tip">👆 Tap to hear</div>`;
-  const nameHtml = `<div class="item-name">${item.name}</div>`;
+  const tapHtml = `<div class="tap-tip">${AR.ui.tapToHear}</div>`;
+  const nameHtml = `<div class="item-name">${label}</div>`;
 
   if (item.image) {
     return `
-      <img class="item-photo" src="${item.image}" alt="${item.name}" />
+      <img class="item-photo" src="${item.image}" alt="${label}" />
       <div class="item-shade"></div>
       <div class="item-content">
         ${bigHtml}
@@ -277,9 +320,10 @@ function buildItemCardContent(item, index, total) {
   `;
 }
 
-function attachImageFallback(card, item, index, total) {
+function attachImageFallback(card, item, catId, index, total) {
   const img = card.querySelector(".item-photo");
   if (!img) return;
+  const label = itemNameAr(catId, item);
 
   img.addEventListener("error", () => {
     card.classList.remove("item-card--photo");
@@ -289,9 +333,9 @@ function attachImageFallback(card, item, index, total) {
     card.innerHTML = `
       ${bigHtml}
       <div class="item-emoji">${emojiHtml}</div>
-      <div class="item-name">${item.name}</div>
+      <div class="item-name">${label}</div>
       <div class="item-counter">${index + 1} / ${total}</div>
-      <div class="tap-tip">👆 Tap to hear</div>
+      <div class="tap-tip">${AR.ui.tapToHear}</div>
     `;
   });
 }
@@ -312,12 +356,12 @@ function renderHome() {
 
     card.innerHTML = `
       ${cat.cover ? "" : `<span class="cat-emoji">${cat.emoji}</span>`}
-      <span class="cat-name">${cat.name}</span>
-      <span class="cat-count">${cat.items.length} items</span>
+      <span class="cat-name">${catNameAr(cat)}</span>
+      <span class="cat-count">${AR.ui.items(cat.items.length)}</span>
     `;
 
     card.addEventListener("click", () => {
-      speak(cat.name);
+      speak(catNameAr(cat));
       openCategory(cat);
     });
     categoriesGrid.appendChild(card);
@@ -326,13 +370,13 @@ function renderHome() {
 
 // ---------- FEED SCREEN ----------
 function openCategory(cat) {
-  feedTitle.textContent = `${cat.emoji} ${cat.name}`;
+  feedTitle.textContent = `${cat.emoji} ${catNameAr(cat)}`;
   feed.innerHTML = "";
 
   cat.items.forEach((item, i) => {
     const card = document.createElement("div");
     card.className = "item-card";
-    card.dataset.name = item.name;
+    card.dataset.name = itemNameAr(cat.id, item);
 
     if (item.image) {
       card.classList.add("item-card--photo");
@@ -340,11 +384,11 @@ function openCategory(cat) {
       card.style.background = item.bg || CARD_BACKGROUNDS[i % CARD_BACKGROUNDS.length];
     }
 
-    card.innerHTML = buildItemCardContent(item, i, cat.items.length);
-    attachImageFallback(card, item, i, cat.items.length);
+    card.innerHTML = buildItemCardContent(item, cat.id, i, cat.items.length);
+    attachImageFallback(card, item, cat.id, i, cat.items.length);
 
     card.addEventListener("click", () => {
-      speak(item.name);
+      speak(itemNameAr(cat.id, item));
       card.classList.remove("active");
       void card.offsetWidth;
       card.classList.add("active");
